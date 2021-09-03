@@ -1,0 +1,65 @@
+/*************************************
+PAGE:
+**************************************/
+.myimage {
+float:left;
+width:175px;
+height:200px;
+margin:10px;
+border-radius: 10px;
+}
+
+.iconimg{
+float:left;
+width:200px;
+height:200px;
+margin:10px;
+border-radius: 10px;
+}
+
+/*************************************
+GENERAL
+**************************************/
+
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: lightblue;
+}
+
+h1{
+text-align: center;
+font-size: 300%;
+color: blue;
+}
+
+.center{
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+border-radius:20px;
+}
+
+/*************************************
+Navigation
+**************************************/
+
+/* Adding a background color to the navigation bar */
+.customnavbar {
+overflow: hidden;
+background-color: lightcoral;
+}
+/*Style the link inside the navigation bar */
+.customnavbar a {
+float: right;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: snow;
+font-size: 20px;
+}
+/*Change the color of menu when hover over*/
+.customnavbar a:hover {
+background-color: lightgrey;
+color: blue;
+}
